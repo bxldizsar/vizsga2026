@@ -1,0 +1,958 @@
+{
+  "inventoryDate": "2026-09-28",
+  "company": {
+    "name": "HeavyParts Transylvania SRL",
+    "currency": "EUR"
+  },
+  "machines": [
+    {
+      "id": "M-001",
+      "type": "TRACTOR",
+      "manufacturer": "John Deere",
+      "model": "6155R",
+      "year": 2018,
+      "purchasePrice": 34000,
+      "estimatedSellingPrice": 42500,
+      "status": "FOR_RESALE",
+      "hours": 6850
+    },
+    {
+      "id": "M-002",
+      "type": "BULLDOZER",
+      "manufacturer": "Caterpillar",
+      "model": "D6T",
+      "year": 2012,
+      "purchasePrice": 28000,
+      "estimatedSellingPrice": 36000,
+      "status": "FOR_DISMANTLING",
+      "hours": 11800
+    },
+    {
+      "id": "M-003",
+      "type": "BULLDOZER",
+      "manufacturer": "Komatsu",
+      "model": "D65PX",
+      "year": 2009,
+      "purchasePrice": 21000,
+      "estimatedSellingPrice": 29500,
+      "status": "FOR_DISMANTLING",
+      "hours": 14300
+    },
+    {
+      "id": "M-004",
+      "type": "TRACTOR",
+      "manufacturer": "New Holland",
+      "model": "T7.210",
+      "year": 2017,
+      "purchasePrice": 31500,
+      "estimatedSellingPrice": 39500,
+      "status": "FOR_RESALE",
+      "hours": 7200
+    },
+    {
+      "id": "M-005",
+      "type": "TRACTOR",
+      "manufacturer": "Case IH",
+      "model": "Puma 165",
+      "year": 2015,
+      "purchasePrice": 27000,
+      "estimatedSellingPrice": 35000,
+      "status": "FOR_RESALE",
+      "hours": 9100
+    },
+    {
+      "id": "M-006",
+      "type": "BULLDOZER",
+      "manufacturer": "Caterpillar",
+      "model": "D5K",
+      "year": 2014,
+      "purchasePrice": 23500,
+      "estimatedSellingPrice": 30500,
+      "status": "FOR_DISMANTLING",
+      "hours": 12600
+    },
+    {
+      "id": "M-007",
+      "type": "TRACTOR",
+      "manufacturer": "Fendt",
+      "model": "724 Vario",
+      "year": 2019,
+      "purchasePrice": 51000,
+      "estimatedSellingPrice": 63000,
+      "status": "FOR_RESALE",
+      "hours": 5300
+    },
+    {
+      "id": "M-008",
+      "type": "BULLDOZER",
+      "manufacturer": "Liebherr",
+      "model": "PR 726",
+      "year": 2016,
+      "purchasePrice": 33000,
+      "estimatedSellingPrice": 42000,
+      "status": "FOR_DISMANTLING",
+      "hours": 10200
+    },
+    {
+      "id": "M-009",
+      "type": "TRACTOR",
+      "manufacturer": "John Deere",
+      "model": "7530",
+      "year": 2011,
+      "purchasePrice": 26000,
+      "estimatedSellingPrice": 33000,
+      "status": "FOR_RESALE",
+      "hours": 12200
+    },
+    {
+      "id": "M-010",
+      "type": "TRACTOR",
+      "manufacturer": "John Deere",
+      "model": "2140",
+      "year": 1985,
+      "purchasePrice": 9000,
+      "estimatedSellingPrice": 12500,
+      "status": "FOR_RESALE",
+      "hours": 18750
+    },
+    {
+      "id": "M-011",
+      "type": "BULLDOZER",
+      "manufacturer": "Komatsu",
+      "model": "D61EX",
+      "year": 2011,
+      "purchasePrice": 19500,
+      "estimatedSellingPrice": 27000,
+      "status": "FOR_DISMANTLING",
+      "hours": 15100
+    },
+    {
+      "id": "M-012",
+      "type": "TRACTOR",
+      "manufacturer": "Massey Ferguson",
+      "model": "7718",
+      "year": 2018,
+      "purchasePrice": 36000,
+      "estimatedSellingPrice": 44000,
+      "status": "FOR_RESALE",
+      "hours": 6400
+    },
+    {
+      "id": "M-013",
+      "type": "TRACTOR",
+      "manufacturer": "Deutz-Fahr",
+      "model": "7250 TTV",
+      "year": 2020,
+      "purchasePrice": 47000,
+      "estimatedSellingPrice": 56500,
+      "status": "FOR_RESALE",
+      "hours": 4200
+    },
+    {
+      "id": "M-014",
+      "type": "BULLDOZER",
+      "manufacturer": "Caterpillar",
+      "model": "D6R",
+      "year": 2007,
+      "purchasePrice": 18000,
+      "estimatedSellingPrice": 25000,
+      "status": "FOR_DISMANTLING",
+      "hours": 17400
+    },
+    {
+      "id": "M-015",
+      "type": "TRACTOR",
+      "manufacturer": "New Holland",
+      "model": "T6.180",
+      "year": 2016,
+      "purchasePrice": 28500,
+      "estimatedSellingPrice": 34500,
+      "status": "FOR_RESALE",
+      "hours": 8100
+    },
+    {
+      "id": "M-090",
+      "type": "EXCAVATOR",
+      "manufacturer": "Caterpillar",
+      "model": "320D",
+      "year": 2013,
+      "purchasePrice": 32000,
+      "estimatedSellingPrice": 40000,
+      "status": "FOR_RESALE",
+      "hours": 12000
+    },
+    {
+      "id": "M-091",
+      "type": "TRACTOR",
+      "manufacturer": "",
+      "model": "Unknown 150",
+      "year": 2010,
+      "purchasePrice": 15000,
+      "estimatedSellingPrice": 19000,
+      "status": "FOR_RESALE",
+      "hours": 9000
+    },
+    {
+      "id": "M-092",
+      "type": "BULLDOZER",
+      "manufacturer": "Caterpillar",
+      "model": "D7",
+      "year": 2031,
+      "purchasePrice": 29000,
+      "estimatedSellingPrice": 39000,
+      "status": "FOR_DISMANTLING",
+      "hours": 4500
+    },
+    {
+      "id": "M-093",
+      "type": "TRACTOR",
+      "manufacturer": "Case IH",
+      "model": "Maxxum 150",
+      "year": 2018,
+      "purchasePrice": -14000,
+      "estimatedSellingPrice": 31000,
+      "status": "FOR_RESALE",
+      "hours": 6500
+    },
+    {
+      "id": "M-094",
+      "type": "BULLDOZER",
+      "manufacturer": "Komatsu",
+      "model": "D51PX",
+      "year": 2015,
+      "purchasePrice": 24000,
+      "estimatedSellingPrice": 31000,
+      "status": "SCRAPPED",
+      "hours": 13400
+    },
+    {
+      "id": "M-095",
+      "type": "TRACTOR",
+      "manufacturer": "Fendt",
+      "model": "716 Vario",
+      "year": 2016,
+      "purchasePrice": 33000,
+      "estimatedSellingPrice": 39500,
+      "status": "FOR_RESALE",
+      "hours": -400
+    }
+  ],
+  "parts": [
+    {
+      "id": "P-001",
+      "partNumber": "JD-6155R-ENG",
+      "name": "Complete engine",
+      "category": "ENGINE",
+      "condition": "NEW",
+      "purchasePrice": 5200,
+      "sellingPrice": 6900,
+      "quantity": 2,
+      "compatibleModels": [
+        "6155R"
+      ]
+    },
+    {
+      "id": "P-002",
+      "partNumber": "CAT-D6T-HYD-01",
+      "name": "Hydraulic pump",
+      "category": "HYDRAULICS",
+      "condition": "USED",
+      "purchasePrice": 1100,
+      "sellingPrice": 1850,
+      "quantity": 1,
+      "sourceMachineId": "M-002",
+      "compatibleModels": [
+        "D6T"
+      ]
+    },
+    {
+      "id": "P-003",
+      "partNumber": "CAT-D6T-TRACK",
+      "name": "Track assembly",
+      "category": "UNDERCARRIAGE",
+      "condition": "USED",
+      "purchasePrice": 900,
+      "sellingPrice": 2400,
+      "quantity": 2,
+      "sourceMachineId": "M-002",
+      "compatibleModels": [
+        "D6T",
+        "D6R"
+      ]
+    },
+    {
+      "id": "P-004",
+      "partNumber": "CAT-D6T-ENG",
+      "name": "Caterpillar C9 engine",
+      "category": "ENGINE",
+      "condition": "USED",
+      "purchasePrice": 5500,
+      "sellingPrice": 14000,
+      "quantity": 1,
+      "sourceMachineId": "M-002",
+      "compatibleModels": [
+        "D6T"
+      ]
+    },
+    {
+      "id": "P-005",
+      "partNumber": "CAT-D6T-FINAL",
+      "name": "Final drive",
+      "category": "TRANSMISSION",
+      "condition": "USED",
+      "purchasePrice": 1800,
+      "sellingPrice": 4600,
+      "quantity": 1,
+      "sourceMachineId": "M-002",
+      "compatibleModels": [
+        "D6T",
+        "D6R"
+      ]
+    },
+    {
+      "id": "P-006",
+      "partNumber": "CAT-D6T-BLADE",
+      "name": "Bulldozer blade",
+      "category": "BODY",
+      "condition": "USED",
+      "purchasePrice": 1500,
+      "sellingPrice": 3500,
+      "quantity": 1,
+      "sourceMachineId": "M-002",
+      "compatibleModels": [
+        "D6T"
+      ]
+    },
+    {
+      "id": "P-007",
+      "partNumber": "KOM-D65-ENG",
+      "name": "Komatsu engine",
+      "category": "ENGINE",
+      "condition": "USED",
+      "purchasePrice": 4000,
+      "sellingPrice": 9800,
+      "quantity": 1,
+      "sourceMachineId": "M-003",
+      "compatibleModels": [
+        "D65PX"
+      ]
+    },
+    {
+      "id": "P-008",
+      "partNumber": "KOM-D65-TRANS",
+      "name": "Transmission",
+      "category": "TRANSMISSION",
+      "condition": "USED",
+      "purchasePrice": 2400,
+      "sellingPrice": 5900,
+      "quantity": 1,
+      "sourceMachineId": "M-003",
+      "compatibleModels": [
+        "D65PX"
+      ]
+    },
+    {
+      "id": "P-009",
+      "partNumber": "KOM-D65-TRACK",
+      "name": "Track chain",
+      "category": "UNDERCARRIAGE",
+      "condition": "USED",
+      "purchasePrice": 750,
+      "sellingPrice": 2100,
+      "quantity": 2,
+      "sourceMachineId": "M-003",
+      "compatibleModels": [
+        "D65PX",
+        "D61EX"
+      ]
+    },
+    {
+      "id": "P-010",
+      "partNumber": "KOM-D65-HYD",
+      "name": "Hydraulic control valve",
+      "category": "HYDRAULICS",
+      "condition": "USED",
+      "purchasePrice": 800,
+      "sellingPrice": 1900,
+      "quantity": 1,
+      "sourceMachineId": "M-003",
+      "compatibleModels": [
+        "D65PX"
+      ]
+    },
+    {
+      "id": "P-011",
+      "partNumber": "NH-T7-TURBO",
+      "name": "Turbocharger",
+      "category": "ENGINE",
+      "condition": "NEW",
+      "purchasePrice": 850,
+      "sellingPrice": 1250,
+      "quantity": 4,
+      "compatibleModels": [
+        "T7.210",
+        "T7.230"
+      ]
+    },
+    {
+      "id": "P-012",
+      "partNumber": "CASE-PUMA-ALT",
+      "name": "Alternator",
+      "category": "ELECTRICAL",
+      "condition": "NEW",
+      "purchasePrice": 310,
+      "sellingPrice": 480,
+      "quantity": 6,
+      "compatibleModels": [
+        "Puma 165",
+        "Puma 180"
+      ]
+    },
+    {
+      "id": "P-013",
+      "partNumber": "FENDT-724-HYD",
+      "name": "Hydraulic pump",
+      "category": "HYDRAULICS",
+      "condition": "NEW",
+      "purchasePrice": 1600,
+      "sellingPrice": 2250,
+      "quantity": 2,
+      "compatibleModels": [
+        "724 Vario"
+      ]
+    },
+    {
+      "id": "P-014",
+      "partNumber": "JD-7530-START",
+      "name": "Starter motor",
+      "category": "ELECTRICAL",
+      "condition": "USED",
+      "purchasePrice": 180,
+      "sellingPrice": 350,
+      "quantity": 3,
+      "compatibleModels": [
+        "7530",
+        "7430"
+      ]
+    },
+    {
+      "id": "P-015",
+      "partNumber": "JD-2140-CLUTCH",
+      "name": "Clutch assembly",
+      "category": "TRANSMISSION",
+      "condition": "NEW",
+      "purchasePrice": 420,
+      "sellingPrice": 720,
+      "quantity": 2,
+      "compatibleModels": [
+        "2140",
+        "2040"
+      ]
+    },
+    {
+      "id": "P-016",
+      "partNumber": "CAT-D5K-ENG",
+      "name": "Complete engine",
+      "category": "ENGINE",
+      "condition": "USED",
+      "purchasePrice": 3700,
+      "sellingPrice": 8200,
+      "quantity": 1,
+      "sourceMachineId": "M-006",
+      "compatibleModels": [
+        "D5K"
+      ]
+    },
+    {
+      "id": "P-017",
+      "partNumber": "CAT-D5K-HYD",
+      "name": "Hydraulic pump",
+      "category": "HYDRAULICS",
+      "condition": "USED",
+      "purchasePrice": 950,
+      "sellingPrice": 1800,
+      "quantity": 1,
+      "sourceMachineId": "M-006",
+      "compatibleModels": [
+        "D5K"
+      ]
+    },
+    {
+      "id": "P-018",
+      "partNumber": "CAT-D5K-TRACK",
+      "name": "Track assembly",
+      "category": "UNDERCARRIAGE",
+      "condition": "USED",
+      "purchasePrice": 1000,
+      "sellingPrice": 2300,
+      "quantity": 2,
+      "sourceMachineId": "M-006",
+      "compatibleModels": [
+        "D5K"
+      ]
+    },
+    {
+      "id": "P-019",
+      "partNumber": "LIE-PR726-ENG",
+      "name": "Diesel engine",
+      "category": "ENGINE",
+      "condition": "USED",
+      "purchasePrice": 4700,
+      "sellingPrice": 10200,
+      "quantity": 1,
+      "sourceMachineId": "M-008",
+      "compatibleModels": [
+        "PR 726"
+      ]
+    },
+    {
+      "id": "P-020",
+      "partNumber": "LIE-PR726-FINAL",
+      "name": "Final drive",
+      "category": "TRANSMISSION",
+      "condition": "USED",
+      "purchasePrice": 1900,
+      "sellingPrice": 4200,
+      "quantity": 2,
+      "sourceMachineId": "M-008",
+      "compatibleModels": [
+        "PR 726"
+      ]
+    },
+    {
+      "id": "P-021",
+      "partNumber": "LIE-PR726-BLADE",
+      "name": "Blade assembly",
+      "category": "BODY",
+      "condition": "USED",
+      "purchasePrice": 1800,
+      "sellingPrice": 4100,
+      "quantity": 1,
+      "sourceMachineId": "M-008",
+      "compatibleModels": [
+        "PR 726"
+      ]
+    },
+    {
+      "id": "P-022",
+      "partNumber": "KOM-D61-ENG",
+      "name": "Complete engine",
+      "category": "ENGINE",
+      "condition": "USED",
+      "purchasePrice": 3600,
+      "sellingPrice": 8500,
+      "quantity": 1,
+      "sourceMachineId": "M-011",
+      "compatibleModels": [
+        "D61EX"
+      ]
+    },
+    {
+      "id": "P-023",
+      "partNumber": "KOM-D61-TRACK",
+      "name": "Track chain",
+      "category": "UNDERCARRIAGE",
+      "condition": "USED",
+      "purchasePrice": 650,
+      "sellingPrice": 1950,
+      "quantity": 2,
+      "sourceMachineId": "M-011",
+      "compatibleModels": [
+        "D61EX",
+        "D65PX"
+      ]
+    },
+    {
+      "id": "P-024",
+      "partNumber": "KOM-D61-BLADE",
+      "name": "Blade",
+      "category": "BODY",
+      "condition": "USED",
+      "purchasePrice": 1250,
+      "sellingPrice": 3200,
+      "quantity": 1,
+      "sourceMachineId": "M-011",
+      "compatibleModels": [
+        "D61EX"
+      ]
+    },
+    {
+      "id": "P-025",
+      "partNumber": "MF-7718-ALT",
+      "name": "Alternator",
+      "category": "ELECTRICAL",
+      "condition": "NEW",
+      "purchasePrice": 280,
+      "sellingPrice": 450,
+      "quantity": 5,
+      "compatibleModels": [
+        "7718",
+        "7720"
+      ]
+    },
+    {
+      "id": "P-026",
+      "partNumber": "DEUTZ-7250-ECU",
+      "name": "Engine control unit",
+      "category": "ELECTRICAL",
+      "condition": "NEW",
+      "purchasePrice": 920,
+      "sellingPrice": 1450,
+      "quantity": 2,
+      "compatibleModels": [
+        "7250 TTV"
+      ]
+    },
+    {
+      "id": "P-027",
+      "partNumber": "CAT-D6R-ENG",
+      "name": "Engine",
+      "category": "ENGINE",
+      "condition": "USED",
+      "purchasePrice": 3500,
+      "sellingPrice": 8700,
+      "quantity": 1,
+      "sourceMachineId": "M-014",
+      "compatibleModels": [
+        "D6R",
+        "D6T"
+      ]
+    },
+    {
+      "id": "P-028",
+      "partNumber": "CAT-D6R-TRANS",
+      "name": "Transmission",
+      "category": "TRANSMISSION",
+      "condition": "USED",
+      "purchasePrice": 2100,
+      "sellingPrice": 5200,
+      "quantity": 1,
+      "sourceMachineId": "M-014",
+      "compatibleModels": [
+        "D6R"
+      ]
+    },
+    {
+      "id": "P-029",
+      "partNumber": "CAT-D6R-TRACK",
+      "name": "Track assembly",
+      "category": "UNDERCARRIAGE",
+      "condition": "USED",
+      "purchasePrice": 820,
+      "sellingPrice": 2250,
+      "quantity": 2,
+      "sourceMachineId": "M-014",
+      "compatibleModels": [
+        "D6R",
+        "D6T"
+      ]
+    },
+    {
+      "id": "P-030",
+      "partNumber": "NH-T6-FILTER",
+      "name": "Hydraulic filter",
+      "category": "FILTER",
+      "condition": "NEW",
+      "purchasePrice": 45,
+      "sellingPrice": 79,
+      "quantity": 20,
+      "compatibleModels": [
+        "T6.180",
+        "T6.160",
+        "T6.175"
+      ]
+    },
+    {
+      "id": "P-031",
+      "partNumber": "UNIV-BAT-12V",
+      "name": "12V heavy duty battery",
+      "category": "ELECTRICAL",
+      "condition": "NEW",
+      "purchasePrice": 120,
+      "sellingPrice": 190,
+      "quantity": 12,
+      "compatibleModels": [
+        "6155R",
+        "7530",
+        "2140",
+        "T7.210",
+        "T6.180",
+        "Puma 165",
+        "7718"
+      ]
+    },
+    {
+      "id": "P-032",
+      "partNumber": "CAT-D6-FILTER",
+      "name": "Engine oil filter",
+      "category": "FILTER",
+      "condition": "NEW",
+      "purchasePrice": 38,
+      "sellingPrice": 69,
+      "quantity": 25,
+      "compatibleModels": [
+        "D6T",
+        "D6R"
+      ]
+    },
+    {
+      "id": "P-033",
+      "partNumber": "KOM-D65-ALT",
+      "name": "Alternator",
+      "category": "ELECTRICAL",
+      "condition": "USED",
+      "purchasePrice": 300,
+      "sellingPrice": 700,
+      "quantity": 1,
+      "sourceMachineId": "M-003",
+      "compatibleModels": [
+        "D65PX",
+        "D61EX"
+      ]
+    },
+    {
+      "id": "P-034",
+      "partNumber": "JD-6155R-SEAT",
+      "name": "Operator seat",
+      "category": "CABIN",
+      "condition": "USED",
+      "purchasePrice": 250,
+      "sellingPrice": 650,
+      "quantity": 1,
+      "compatibleModels": [
+        "6155R",
+        "7530"
+      ]
+    },
+    {
+      "id": "P-035",
+      "partNumber": "GEN-WORKLIGHT",
+      "name": "LED work light",
+      "category": "ELECTRICAL",
+      "condition": "NEW",
+      "purchasePrice": 35,
+      "sellingPrice": 75,
+      "quantity": 30,
+      "compatibleModels": [
+        "6155R",
+        "7530",
+        "T7.210",
+        "T6.180",
+        "Puma 165",
+        "724 Vario",
+        "7718",
+        "7250 TTV",
+        "D6T",
+        "D6R",
+        "D5K",
+        "D65PX",
+        "D61EX",
+        "PR 726"
+      ]
+    },
+    {
+      "id": "P-090",
+      "partNumber": null,
+      "name": "Hydraulic cylinder",
+      "category": "HYDRAULICS",
+      "condition": "USED",
+      "purchasePrice": 250,
+      "sellingPrice": -300,
+      "quantity": 1,
+      "sourceMachineId": "M-002",
+      "compatibleModels": [
+        "D6T"
+      ]
+    },
+    {
+      "id": "P-091",
+      "partNumber": "KOM-D65-BADREF",
+      "name": "Alternator",
+      "category": "ELECTRICAL",
+      "condition": "USED",
+      "purchasePrice": 250,
+      "sellingPrice": 700,
+      "quantity": 1,
+      "sourceMachineId": "M-999",
+      "compatibleModels": [
+        "D65PX"
+      ]
+    },
+    {
+      "id": "P-092",
+      "partNumber": "CAT-D6T-HYD-01",
+      "name": "Hydraulic pump",
+      "category": "HYDRAULICS",
+      "condition": "USED",
+      "purchasePrice": 1000,
+      "sellingPrice": 1700,
+      "quantity": 1,
+      "sourceMachineId": "M-002",
+      "compatibleModels": [
+        "D6T"
+      ]
+    },
+    {
+      "id": "P-093",
+      "partNumber": "CAT-FILTER-88",
+      "name": "Oil filter",
+      "category": "FILTER",
+      "condition": "NEW",
+      "purchasePrice": 70,
+      "sellingPrice": 120,
+      "quantity": 8,
+      "compatibleModels": "D6T"
+    },
+    {
+      "id": "P-094",
+      "partNumber": "JD-BRAKE-001",
+      "name": "Brake disc",
+      "category": "BRAKES",
+      "condition": "REFURBISHED",
+      "purchasePrice": 160,
+      "sellingPrice": 320,
+      "quantity": 4,
+      "compatibleModels": [
+        "6155R",
+        "7530"
+      ]
+    },
+    {
+      "id": "P-095",
+      "partNumber": "NH-T7-SENSOR",
+      "name": "",
+      "category": "ELECTRICAL",
+      "condition": "NEW",
+      "purchasePrice": 95,
+      "sellingPrice": 170,
+      "quantity": 3,
+      "compatibleModels": [
+        "T7.210"
+      ]
+    },
+    {
+      "id": "P-096",
+      "partNumber": "CASE-PUMA-HOSE",
+      "name": "Hydraulic hose",
+      "category": "HYDRAULICS",
+      "condition": "NEW",
+      "purchasePrice": 60,
+      "sellingPrice": 110,
+      "quantity": -4,
+      "compatibleModels": [
+        "Puma 165"
+      ]
+    },
+    {
+      "id": "P-097",
+      "partNumber": "FENDT-724-SCREEN",
+      "name": "Dashboard display",
+      "category": "ELECTRICAL",
+      "condition": "USED",
+      "purchasePrice": 500,
+      "sellingPrice": 1200,
+      "quantity": 1,
+      "sourceMachineId": null,
+      "compatibleModels": [
+        "724 Vario"
+      ]
+    },
+    {
+      "id": "P-098",
+      "partNumber": "CAT-D6T-USED-BLADE",
+      "name": "Blade assembly",
+      "category": "BODY",
+      "condition": "USED",
+      "purchasePrice": 4500,
+      "sellingPrice": 3200,
+      "quantity": 1,
+      "sourceMachineId": "M-002",
+      "compatibleModels": [
+        "D6T"
+      ]
+    },
+    {
+      "id": "P-099",
+      "partNumber": "JD-7530-TURBO",
+      "name": "Turbocharger",
+      "category": "ENGINE",
+      "condition": "USED",
+      "purchasePrice": 450,
+      "sellingPrice": 950,
+      "quantity": 0,
+      "compatibleModels": [
+        "7530"
+      ]
+    },
+    {
+      "id": "P-100",
+      "partNumber": "MF-7718-STARTER",
+      "name": "Starter motor",
+      "category": "ELECTRICAL",
+      "condition": "NEW",
+      "purchasePrice": 250,
+      "sellingPrice": 410,
+      "quantity": 4,
+      "compatibleModels": []
+    }
+  ],
+  "salvageEstimates": [
+    {
+      "machineId": "M-002",
+      "estimatedLaborCost": 2600,
+      "estimatedTransportCost": 900
+    },
+    {
+      "machineId": "M-003",
+      "estimatedLaborCost": 2200,
+      "estimatedTransportCost": 750
+    },
+    {
+      "machineId": "M-006",
+      "estimatedLaborCost": 2100,
+      "estimatedTransportCost": 650
+    },
+    {
+      "machineId": "M-008",
+      "estimatedLaborCost": 3100,
+      "estimatedTransportCost": 1100
+    },
+    {
+      "machineId": "M-011",
+      "estimatedLaborCost": 2000,
+      "estimatedTransportCost": 700
+    },
+    {
+      "machineId": "M-014",
+      "estimatedLaborCost": 2400,
+      "estimatedTransportCost": 800
+    }
+  ],
+  "meta": {
+    "minimumValidYear": 1970,
+    "maximumMachineHours": 50000,
+    "allowedMachineTypes": [
+      "TRACTOR",
+      "BULLDOZER"
+    ],
+    "allowedStatuses": [
+      "FOR_RESALE",
+      "FOR_DISMANTLING"
+    ],
+    "allowedPartConditions": [
+      "NEW",
+      "USED"
+    ],
+    "allowedCategories": [
+      "ENGINE",
+      "TRANSMISSION",
+      "HYDRAULICS",
+      "UNDERCARRIAGE",
+      "ELECTRICAL",
+      "BODY",
+      "CABIN",
+      "BRAKES",
+      "FILTER"
+    ]
+  }
+}

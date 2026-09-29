@@ -1,0 +1,72 @@
+===== REJECTED RECORDS (12) =====
+
+Record: machine M-090
+Reason: VALIDATION: unsupported machine type 'EXCAVATOR'; 
+Action: REJECTED
+
+Record: machine M-091
+Reason: VALIDATION: missing manufacturer; 
+Action: REJECTED
+
+Record: machine M-092
+Reason: VALIDATION: invalid year 2031 (allowed 1970-2026); 
+Action: REJECTED
+
+Record: machine M-093
+Reason: VALIDATION: invalid purchasePrice -14000.0; 
+Action: REJECTED
+
+Record: machine M-094
+Reason: VALIDATION: invalid status 'SCRAPPED'; 
+Action: REJECTED
+
+Record: machine M-095
+Reason: VALIDATION: invalid hours -400 (allowed 0-50000); 
+Action: REJECTED
+
+Record: part P-090
+Reason: VALIDATION: missing partNumber; invalid sellingPrice -300.0; 
+Action: REJECTED
+
+Record: part P-092
+Reason: VALIDATION: duplicate partNumber CAT-D6T-HYD-01 (already used by P-002)
+Action: REJECTED
+
+Record: part P-093
+Reason: PARSING: wrong data type - java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at path $.compatibleModels
+Action: REJECTED
+
+Record: part P-094
+Reason: VALIDATION: invalid condition 'REFURBISHED'; 
+Action: REJECTED
+
+Record: part P-095
+Reason: VALIDATION: missing name; 
+Action: REJECTED
+
+Record: part P-096
+Reason: VALIDATION: invalid quantity -4; 
+Action: REJECTED
+
+===== WARNINGS - accepted but suspicious (5) =====
+
+Record: machine M-010
+Reason: very old machine (1985), but still valid
+Action: ACCEPTED WITH WARNING
+
+Record: part P-091
+Reason: INVALID REFERENCE: source machine M-999 does not exist (part kept, excluded from dismantling value)
+Action: ACCEPTED WITH WARNING
+
+Record: part P-098
+Reason: selling price (3200.0) is lower than purchase price (4500.0)
+Action: ACCEPTED WITH WARNING
+
+Record: part P-099
+Reason: out of stock (quantity 0), still valid
+Action: ACCEPTED WITH WARNING
+
+Record: part P-100
+Reason: no compatible models listed
+Action: ACCEPTED WITH WARNING
+

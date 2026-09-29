@@ -9,7 +9,7 @@ public class Main {
         final DataLoader loader = new DataLoader();
         boolean ok = loader.load("data.json");
         if (!ok) {
-            System.out.println("Data could not be loaded, program stops.");
+            System.out.println("Data could not be loaded, program stops."); 
             return;
         }
 

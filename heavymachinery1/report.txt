@@ -1,0 +1,138 @@
+===== HEAVY MACHINERY INVENTORY REPORT =====
+Company: HeavyParts Transylvania SRL
+
+--- 1. SUMMARY ---
+Valid machines: 15
+Valid parts: 40
+Valid salvage estimates: 6
+Rejected records: 12
+Warnings: 5
+Inventory objects created (static counter): 56
+
+--- 2. INVENTORY VALUE (EUR) ---
+Machines - purchase value: 433000.00 EUR, estimated selling value: 550500.00 EUR
+Parts    - purchase value: 85360.00 EUR, selling value: 171595.00 EUR
+TOTAL    - purchase value: 518360.00 EUR, selling value: 722095.00 EUR
+
+--- 3. NEW vs USED PARTS ---
+NEW: 12 part types, stock selling value 42245.00 EUR
+USED: 28 part types, stock selling value 129350.00 EUR
+
+--- 4. PARTS GROUPED BY CATEGORY ---
+BODY: 4 part types, 4 pieces, value 14000.00 EUR
+CABIN: 1 part types, 1 pieces, value 650.00 EUR
+ELECTRICAL: 10 part types, 65 pieces, value 17850.00 EUR
+ENGINE: 9 part types, 12 pieces, value 78200.00 EUR
+FILTER: 2 part types, 45 pieces, value 3305.00 EUR
+HYDRAULICS: 4 part types, 5 pieces, value 10050.00 EUR
+TRANSMISSION: 5 part types, 7 pieces, value 25540.00 EUR
+UNDERCARRIAGE: 5 part types, 10 pieces, value 22000.00 EUR
+
+--- 5. MACHINES FOR RESALE (sorted by resale profit, descending) ---
+M-007 TRACTOR Fendt 724 Vario (2019, 5300 h, FOR_RESALE) -> resale profit 12000.00 EUR
+M-013 TRACTOR Deutz-Fahr 7250 TTV (2020, 4200 h, FOR_RESALE) -> resale profit 9500.00 EUR
+M-001 TRACTOR John Deere 6155R (2018, 6850 h, FOR_RESALE) -> resale profit 8500.00 EUR
+M-004 TRACTOR New Holland T7.210 (2017, 7200 h, FOR_RESALE) -> resale profit 8000.00 EUR
+M-005 TRACTOR Case IH Puma 165 (2015, 9100 h, FOR_RESALE) -> resale profit 8000.00 EUR
+M-012 TRACTOR Massey Ferguson 7718 (2018, 6400 h, FOR_RESALE) -> resale profit 8000.00 EUR
+M-009 TRACTOR John Deere 7530 (2011, 12200 h, FOR_RESALE) -> resale profit 7000.00 EUR
+M-015 TRACTOR New Holland T6.180 (2016, 8100 h, FOR_RESALE) -> resale profit 6000.00 EUR
+M-010 TRACTOR John Deere 2140 (1985, 18750 h, FOR_RESALE) -> resale profit 3500.00 EUR
+
+--- 6. DISMANTLING ANALYSIS (sorted by salvage profit, descending) ---
+Salvage profit = dismantling value - machine purchase price - labor - transport
+Worth dismantling = salvage profit > resale profit (selling the machine as a whole)
+
+M-002 BULLDOZER Caterpillar D6T (2012, 11800 h, FOR_DISMANTLING)
+     part: P-002 Hydraulic pump x1 = 1850.00 EUR
+     part: P-003 Track assembly x2 = 4800.00 EUR
+     part: P-004 Caterpillar C9 engine x1 = 14000.00 EUR
+     part: P-005 Final drive x1 = 4600.00 EUR
+     part: P-006 Bulldozer blade x1 = 3500.00 EUR
+     part: P-098 Blade assembly x1 = 3200.00 EUR
+   dismantling value: 31950.00 EUR
+   purchase price:    28000.00 EUR
+   labor + transport: 3500.00 EUR
+   SALVAGE PROFIT:    450.00 EUR
+   resale profit:     8000.00 EUR
+   WORTH DISMANTLING: NO
+
+M-003 BULLDOZER Komatsu D65PX (2009, 14300 h, FOR_DISMANTLING)
+     part: P-007 Komatsu engine x1 = 9800.00 EUR
+     part: P-008 Transmission x1 = 5900.00 EUR
+     part: P-009 Track chain x2 = 4200.00 EUR
+     part: P-010 Hydraulic control valve x1 = 1900.00 EUR
+     part: P-033 Alternator x1 = 700.00 EUR
+   dismantling value: 22500.00 EUR
+   purchase price:    21000.00 EUR
+   labor + transport: 2950.00 EUR
+   SALVAGE PROFIT:    -1450.00 EUR
+   resale profit:     8500.00 EUR
+   WORTH DISMANTLING: NO
+
+M-014 BULLDOZER Caterpillar D6R (2007, 17400 h, FOR_DISMANTLING)
+     part: P-027 Engine x1 = 8700.00 EUR
+     part: P-028 Transmission x1 = 5200.00 EUR
+     part: P-029 Track assembly x2 = 4500.00 EUR
+   dismantling value: 18400.00 EUR
+   purchase price:    18000.00 EUR
+   labor + transport: 3200.00 EUR
+   SALVAGE PROFIT:    -2800.00 EUR
+   resale profit:     7000.00 EUR
+   WORTH DISMANTLING: NO
+
+M-011 BULLDOZER Komatsu D61EX (2011, 15100 h, FOR_DISMANTLING)
+     part: P-022 Complete engine x1 = 8500.00 EUR
+     part: P-023 Track chain x2 = 3900.00 EUR
+     part: P-024 Blade x1 = 3200.00 EUR
+   dismantling value: 15600.00 EUR
+   purchase price:    19500.00 EUR
+   labor + transport: 2700.00 EUR
+   SALVAGE PROFIT:    -6600.00 EUR
+   resale profit:     7500.00 EUR
+   WORTH DISMANTLING: NO
+
+M-006 BULLDOZER Caterpillar D5K (2014, 12600 h, FOR_DISMANTLING)
+     part: P-016 Complete engine x1 = 8200.00 EUR
+     part: P-017 Hydraulic pump x1 = 1800.00 EUR
+     part: P-018 Track assembly x2 = 4600.00 EUR
+   dismantling value: 14600.00 EUR
+   purchase price:    23500.00 EUR
+   labor + transport: 2750.00 EUR
+   SALVAGE PROFIT:    -11650.00 EUR
+   resale profit:     7000.00 EUR
+   WORTH DISMANTLING: NO
+
+M-008 BULLDOZER Liebherr PR 726 (2016, 10200 h, FOR_DISMANTLING)
+     part: P-019 Diesel engine x1 = 10200.00 EUR
+     part: P-020 Final drive x2 = 8400.00 EUR
+     part: P-021 Blade assembly x1 = 4100.00 EUR
+   dismantling value: 22700.00 EUR
+   purchase price:    33000.00 EUR
+   labor + transport: 4200.00 EUR
+   SALVAGE PROFIT:    -14500.00 EUR
+   resale profit:     9000.00 EUR
+   WORTH DISMANTLING: NO
+
+--- 7. COMPATIBLE PARTS PER MACHINE ---
+M-001 6155R: P-001, P-031, P-034, P-035
+M-002 D6T: P-002, P-003, P-004, P-005, P-006, P-027, P-029, P-032, P-035, P-098
+M-003 D65PX: P-007, P-008, P-009, P-010, P-023, P-033, P-035, P-091
+M-004 T7.210: P-011, P-031, P-035
+M-005 Puma 165: P-012, P-031, P-035
+M-006 D5K: P-016, P-017, P-018, P-035
+M-007 724 Vario: P-013, P-035, P-097
+M-008 PR 726: P-019, P-020, P-021, P-035
+M-009 7530: P-014, P-031, P-034, P-035, P-099
+M-010 2140: P-015, P-031
+M-011 D61EX: P-009, P-022, P-023, P-024, P-033, P-035
+M-012 7718: P-025, P-031, P-035
+M-013 7250 TTV: P-026, P-035
+M-014 D6R: P-003, P-005, P-027, P-028, P-029, P-032, P-035
+M-015 T6.180: P-030, P-031, P-035
+
+--- 8. OUT OF STOCK PARTS ---
+P-099 JD-7530-TURBO Turbocharger [USED, ENGINE] qty=0, sell=950.0 EUR, from: unknown
+
+--- 9. PARTS SOLD BELOW PURCHASE PRICE ---
+P-098 CAT-D6T-USED-BLADE Blade assembly [USED, BODY] qty=1, sell=3200.0 EUR, from: M-002 (purchase 4500.0)
